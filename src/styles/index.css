@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Header_wrapper{
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+}
+
+.Header {
+    width: calc(100% - 40px);
+    margin-left:auto;
+    margin-right:auto;
+    height: inherit;
+    line-height: inherit;
+}
+
+.Header_logo {
+    font-size: 20px;
+    font-weight: 600;
+    float:left;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.Header_more {
+    float:right;
+}
+
+.index_wrapper {
+    min-height: 700px;
+}
+
+.Footer_wrapper {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.Footer {
+    height: inherit;
+    line-height: inherit;
+    text-align: center;
+}
+
+.all {
+    width: calc(100% - 40px);
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.title_wrapper {
+    height: 120px;
+    line-height: 120px;
+    position: relative;
+}
+
+.title {
+    height: 600px;
+    line-height: 600px;
+    font-size: 70px;
+    text-align: center;
+    z-index: 30;
+}
+
+.title:before{
+    z-index: -1;
+    content: '';
+    width: 400px;
+    height: 400px;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    position: absolute;
+    top:100px;
+    left:20%;
+    border-radius: 50%;
+}
+
+.title_sub {
+    color: #FF5060;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#app {
+    overflow: hidden;
+}
+
+.question_wrapper {
+    margin-top: 30px;
+}
+
+.word {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.question_textarea {
+    width: calc(100% - 40px);
+    height: 150px;
+    display: block;
+    background-color: #f3f1f1;
+    border:none;
+    padding:20px;
+    font-size: 20px;
+    border-bottom: 3px solid #FF5060;
+    line-height: 24px;
+}
+
+.answer_wrapper {
+    margin-top: 40px;
+}
+
+.answer_textarea {
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    border:none;
+    padding:20px;
+    font-size: 20px;
+    border-bottom: 3px solid #FF5060;  
+    margin-bottom: 20px; 
+}
+
+.progress_bar {
+    width: 100%;
+    height: 4px;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+}
+
+.button_wrapper {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.button {
+    height: inherit;
+    line-height: inherit;
+    text-align: center;
+    float:left;
+    font-weight: 600;
+}
+
+.prevButton {
+    background: white;
+    color: black;
+}
+
+.nextButton {
+    background: #FF5060;
+    color:white;
+}
+
+.half {
+    width: 50%;
+}
